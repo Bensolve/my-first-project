@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #1b281b;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+a {
+  color: #2e1ccb;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+header {
+  text-align: center;
+}
+
+
+.main_title {
+  color: #4676a9;
+  text-align: center;
+  font-size: 7.5rem;
+  line-height: 1.1;
+}
+
+section {
+  margin-block: 100px;
+ 
+}
+
+h2 {
+  color: #cb731c;
+  font-size: 2.8rem;
+}
+
+h3 {
+  font-size: 1.85rem;
+  
+  margin-block-end: 10px;
+}
+
+ol {
+      padding-inline-start: 24px;
+      margin-block-end: 50px;
+}
+p {
+  font-size: 1.51rem;
+  max-width: 1000px; /* Text wraps when it reaches this width */
+  overflow-wrap: break-word;
+  line-height: 1.4;
+}
+
+footer {
+  padding:  8px 20px;
+  border: 10px solid #6e84cf;
+  background-color: #22466c;
+  color: #fff;
+  text-align: center;
+}
