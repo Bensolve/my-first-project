@@ -9,51 +9,49 @@ body {
   line-height: 1.6;
 }
 
+ul {
+  list-style: none;
+}
 a {
-  color: #2e1ccb;
+  text-decoration: none;
 }
 
+/* a:hover,
+a:focus-visible {
+  color:#5f9b9f;
+} */
+
+/* ul,
+ ol {
+  color:black;
+} */
+
+
+/* li{
+  margin-block:5px;
+} */
 img {
+   display: block;
   max-inline-size: 100%;
   block-size: auto;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 1000px;
-}
-
-header {
-  text-align: center;
-}
-
-
-.main_title {
-  color: #4676a9;
-  text-align: center;
-  font-size: 7.5rem;
-  line-height: 1.1;
-}
-
-section {
-  margin-block: 100px;
- 
-}
-
 h2 {
   color: #cb731c;
-  font-size: 2.8rem;
+  font-size: 2.9rem;
+  margin-top: 0;
+  line-height: 0.8;
 }
 
 h3 {
   font-size: 1.85rem;
-  
+
   margin-block-end: 10px;
 }
 
 ol {
-      padding-inline-start: 24px;
-      margin-block-end: 50px;
+  padding-inline-start: 24px;
+  margin-block-end: 50px;
 }
 p {
   font-size: 1.51rem;
@@ -62,10 +60,127 @@ p {
   line-height: 1.4;
 }
 
-footer {
-  padding:  8px 20px;
-  border: 10px solid #6e84cf;
-  background-color: #22466c;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper {
+  margin-inline:  auto;
+  max-inline-size: 1000px;
+}
+
+.nav_menu {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.nav_menu li a {
+  color: #1b281b;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.main_title {
+  color: #4e504e;
+  text-align: center;
+  font-size: 7.5rem;
+  line-height: 1.1;
+}
+
+.main_title-color {
+  color: #4676a9;
+}
+section {
+  margin-block: 50px;
+}
+
+.section_title {
+  color: #4676a9;
+}
+
+.two_column {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  border: 4px solid #35363b;
+}
+
+/* @media (width < 700px) {
+  .two_column {
+    flex-direction: column;
+    gap: 400px;
+  }
+} */
+
+
+.first_column {
+  width: 44%;
+}
+
+.column_bottom {
+  margin-block: 30px;
+  text-align: center;
+  border: 4px solid #35363b;
+  background-color: #2e97b1;
+
+  font-weight: 100;
+  color: #f7e6e6;
+}
+
+.white {
   color: #fff;
+}
+
+.started {
+  list-style: disc;
+  padding-inline-start: 38px;
+}
+
+.green {
+  color: #1ccb2b;
+  text-decoration: underline;
+}
+
+.image_bg {
+  background: url("../images/simple-steps.jpg");
+  border: 5px solid rgb(89, 89, 179);
+
+  width: 46%;
+  padding: 1rem 1.4rem 0 3rem;
+
+  color: #fff;
+}
+
+.text_bg {
+  width: 49%;
+  
+
+}
+
+.text_bg-title {
+  margin-block-start: 0;
+  line-height: 0.7;
+}
+
+.text_bg ol{
+  padding-right:  8rem;
+}
+
+.image_bg p{
+  /* padding-top: .7rem; */
+
+}
+
+.climb{
+  margin-block-start: 50px;
+}
+footer {
+  padding: 8px 20px;
+  border: 4px solid #35363b;
+  background-color: #2e97b1;
+  color: #f7e6e6;
   text-align: center;
 }
+
